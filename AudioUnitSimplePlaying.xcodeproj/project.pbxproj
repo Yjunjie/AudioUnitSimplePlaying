@@ -15,6 +15,7 @@
 		1575E473223A49B2009BF4F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575E472223A49B2009BF4F4 /* main.m */; };
 		1575E47D223A49B2009BF4F4 /* AudioUnitSimplePlayingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575E47C223A49B2009BF4F4 /* AudioUnitSimplePlayingTests.m */; };
 		1575E488223A49B2009BF4F4 /* AudioUnitSimplePlayingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575E487223A49B2009BF4F4 /* AudioUnitSimplePlayingUITests.m */; };
+		1575E497223A49FA009BF4F4 /* AudioUnitManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575E496223A49FA009BF4F4 /* AudioUnitManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1575E483223A49B2009BF4F4 /* AudioUnitSimplePlayingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioUnitSimplePlayingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1575E487223A49B2009BF4F4 /* AudioUnitSimplePlayingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitSimplePlayingUITests.m; sourceTree = "<group>"; };
 		1575E489223A49B2009BF4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1575E495223A49FA009BF4F4 /* AudioUnitManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitManger.h; sourceTree = "<group>"; };
+		1575E496223A49FA009BF4F4 /* AudioUnitManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitManger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				1575E463223A49B1009BF4F4 /* AppDelegate.h */,
 				1575E464223A49B1009BF4F4 /* AppDelegate.m */,
+				1575E495223A49FA009BF4F4 /* AudioUnitManger.h */,
+				1575E496223A49FA009BF4F4 /* AudioUnitManger.m */,
 				1575E466223A49B1009BF4F4 /* ViewController.h */,
 				1575E467223A49B1009BF4F4 /* ViewController.m */,
 				1575E469223A49B1009BF4F4 /* Main.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1575E497223A49FA009BF4F4 /* AudioUnitManger.m in Sources */,
 				1575E468223A49B1009BF4F4 /* ViewController.m in Sources */,
 				1575E473223A49B2009BF4F4 /* main.m in Sources */,
 				1575E465223A49B1009BF4F4 /* AppDelegate.m in Sources */,
