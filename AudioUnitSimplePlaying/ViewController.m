@@ -17,7 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     AudioUnitManger *player = [[AudioUnitManger alloc] initWithURL:[NSURL URLWithString:@"http://www.ytmp3.cn/down/58627.mp3"]];
-    [player play];
+    BOOL status = [player play];
+    if (status) {
+        NSLog(@"成功播放");
+    }
 }
 
 
